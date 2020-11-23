@@ -231,21 +231,30 @@
               },
               "position": {
                 "x": 593,
-                "y": 188
+                "y": 192
               },
               "angle": 0,
               "id": "9ef060ca-2d00-4a2c-8f66-79489a97d7be",
               "z": 9,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "event listener",
+                  "type": "Tampering",
+                  "description": "hacker can listen to activity in payment system"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Payment App\nInterface"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -655,7 +664,7 @@
           ]
         },
         "size": {
-          "height": 689.8973999023438,
+          "height": 886.3157348632812,
           "width": 1185
         }
       }
